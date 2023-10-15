@@ -1,0 +1,10 @@
+.home__container{
+    width: 90%;
+    margin: auto;  /* pra centralizar */
+    padding: 50px;
+    display: flex;
+
+    justify-content: space-around;  /*para os cards ficar com espaço envolta deles*/
+    align-items: baseline;  /* alinhar os itens pela base */
+    flex-wrap: wrap;  /* pra toda vez que adicionar um card ele ir para a linha de baixo*/
+}

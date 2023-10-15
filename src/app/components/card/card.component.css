@@ -1,0 +1,25 @@
+.card__container{
+    position: relative;  /* relative, para os outros elementos ficar na frente dele
+                          vai usar absolute la no card-label */
+    border: 3px solid #3e4357;
+    border-radius: 10px;
+
+    /* o tamanho do card */
+    width: 350px;
+    height: 500px;
+
+    display: flex;  /* pra todo conteudo que ficar dentro dele, vamos trabalhar com flex */
+    overflow: hidden;  /* pra todo conteudo que exceder o nosso container, eu quero que ele fica escondido */
+    margin-top: 10px;
+}
+
+.card__img{
+    min-width: 100%;
+    min-height: 100%;
+
+    transition: .8s;  /* criando a trasição para o hover */
+}
+
+.card__img:hover{
+    transform: scale(1.1);  /* 1 é igual a 100%, 1.1 é igual a 110%*/
+}

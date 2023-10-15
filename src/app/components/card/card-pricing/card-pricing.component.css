@@ -1,0 +1,36 @@
+.card-pricing__container{
+    position: absolute;  /* quando esta absolute, tem que passar as coordenadas */
+    bottom: 0px;
+    left: 0;
+
+    display: flex;  /* pra conseguir manipular eles */
+    flex-direction: column;
+
+    width: 100%;
+    height: 70px;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 10px;
+    color: antiquewhite;
+    font-family: Calibri;
+}
+
+.card-pricing__title{
+    margin-bottom: 3px;
+}
+
+.card-pricing__value{
+    display: flex;
+    flex-direction: row;  /* display: flex, por padrão p flex-direction é row, então não precisa colocar */
+    justify-content: space-between;
+}
+
+.card-pricing__value__console{
+    display: flex;
+    /*flex-direction: row;  /* não precisa colocar */ 
+}
+
+.card-pricing__value__console > span{
+    font-weight: bolder;
+    color: aqua;
+    margin-right: 10px;
+}
